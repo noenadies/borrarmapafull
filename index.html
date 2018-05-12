@@ -15,13 +15,21 @@ position: absolute;
     z-index: 5;
 }
 
+#img1pp {
+position: absolute;
+
+    left: 222px;
+    top: 160px;
+    z-index: 5;
+}
 
     </style>
   </head>
   <body>
   
     <div id="map"></div>
-    <button id="img1"  onclick="af()">Click re me</button>
+    <p id="img1pp">This is some text in a paragraph.</p>
+    <button id="img1"  onclick="af()">Clickaaaa me</button>
     <script>
     
       function initMap() {
@@ -40,6 +48,7 @@ position: absolute;
  }
 
  function af(){
+document.getElementById("img1pp").innerHTML = "Paragraph changed!";;
 window.location.replace("https://noenadies.github.io/zoommaptaxiserv");
 //window.location.href="https://noenadies.github.io/zoommaptaxiserv/";
 //window.location="https://noenadies.github.io/zoommaptaxiserv/";
