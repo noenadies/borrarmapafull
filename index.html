@@ -29,7 +29,7 @@ position: absolute;
   
     <div id="map"></div>
     <p id="img1pp">This is some text in a paragraph.</p>
-    <button id="img1"  onclick="af()">Clickaaaa me</button>
+    <button id="img1"  onclick="af()">Click me</button>
     <script>
     
       function initMap() {
@@ -48,8 +48,10 @@ position: absolute;
  }
 
  function af(){
-document.getElementById("img1pp").innerHTML = "Paragraph changed!";;
-window.location.replace("https://noenadies.github.io/zoommaptaxiserv");
+document.getElementById("img1pp").innerHTML = "Paragraph changed!";
+  vstxnode=window.Android.showToast("cambiarurl","https://noenadies.github.io/zoommaptaxiserv/",vndhijo);
+
+//window.location.replace("https://noenadies.github.io/zoommaptaxiserv");
 //window.location.href="https://noenadies.github.io/zoommaptaxiserv/";
 //window.location="https://noenadies.github.io/zoommaptaxiserv/";
  }
